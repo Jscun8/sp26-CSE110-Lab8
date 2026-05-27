@@ -1,6 +1,7 @@
 # Lab8-Starter
 Name: Jaylen Cun
-Link to Deployed Github Pages URL:
+
+Link to Deployed Github Pages URL: https://jscun8.github.io/sp26-CSE110-Lab8/
 
 Question: How are graceful degradation and service workers related?
 
