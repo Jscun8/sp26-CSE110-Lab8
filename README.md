@@ -1,1 +1,7 @@
 # Lab8-Starter
+Name: Jaylen Cun
+Link to Deployed Github Pages URL:
+
+Question: How are graceful degradation and service workers related?
+
+Graceful degradation is a design approach where we have an application and we start with max technology and full functionality, however, we also design it to be able to fall back to a more limited but still usable version if certain features fail or become unavailable. For example no internet or internet is disabled. This is basically the reverse of progressive enhancement, where we started with first writing HTML and then enhancing it with CSS which we then followed with JavaScript for even further enhancement. In the recipe-card app for example, graceful degradation in this context would mean that if the network is unavailable, the app can fall back to cached resources instead of completely failing with a blank screen from failing to fetch stuff over the unavailable network. Service workers are related because they are a tool that helps achieve graceful degradation since they cache app files and serve them when the network cannot be reached, which allows the app to continue functioning. Although features would be limited without the network, the app still remains usable, due to the service workers managing cached resources.
